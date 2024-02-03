@@ -1,6 +1,6 @@
 # Bayesian Semi-supervised Active Learning
 
-PyTorch implementation of  ["A new Bayesian semi-supervised active learning framework for large-scale crop mapping using Sentinel-2 imagery"]()
+PyTorch implementation of  ["A new Bayesian semi-supervised active learning framework for large-scale crop mapping using Sentinel-2 imagery"](https://doi.org/10.1016/j.isprsjprs.2024.01.023)
 
 <img src="png/Picture1.png" title="" alt="Picture1.png" width="543">
 
@@ -45,7 +45,19 @@ python train.py --labeled train_2019 --unlabeled test_2019_mini ssl --pseudo_thr
 In case you find SITS-MoCo or the code useful, please consider citing our paper using the following BibTex entry:
 
 ```
-xxx
+
+@article{xu_new_2024,
+	title = {A new {Bayesian} semi-supervised active learning framework for large-scale crop mapping using {Sentinel}-2 imagery},
+	volume = {209},
+	issn = {0924-2716},
+	doi = {10.1016/j.isprsjprs.2024.01.023},
+	journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+	author = {Xu, Yijia and Zhou, Jing and Zhang, Zhou},
+	month = mar,
+	year = {2024},
+	pages = {17--34},
+}
+
 ```
 
 ## Credits
